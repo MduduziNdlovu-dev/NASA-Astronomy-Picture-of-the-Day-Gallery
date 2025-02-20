@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>APOD Gallery</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NASA APOD Gallery</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+  <header>
+    <h1>NASA APOD Gallery</h1>
+    <p>Explore the universe one day at a time.</p>
+  </header>
+
+  <!-- Today's APOD Section -->
+  <section id="today-apod">
+    <h2>Today's Astronomy Picture of the Day</h2>
+    <div class="apod-container">
+      <img id="apod-image" src="" alt="NASA APOD">
+      <div class="apod-info">
+        <h3 id="apod-title"></h3>
+        <p id="apod-date"></p>
+        <p id="apod-explanation"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Historical APOD Section -->
+  <section id="gallery">
+    <h2>Explore Historical Images</h2>
+    <div class="controls">
+      <input type="date" id="date-picker">
+      <button id="load-button">Load Image</button>
+    </div>
+    <div id="historical-apod" class="apod-container"></div>
+  </section>
+
+  <footer>
+    <p>Data provided by NASA's APOD API</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

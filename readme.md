@@ -1,6 +1,6 @@
-```markdown
 # NASA APOD Gallery
 ![alt text](image.png)
+![Demo](https://mduduzindlovu-dev.github.io/NASA-Astronomy-Picture-of-the-Day-Gallery/)
 
 Welcome to the **NASA APOD Gallery**—a dynamic, interactive project that brings the wonders of space right to your browser! This project leverages NASA’s Astronomy Picture of the Day (APOD) API to fetch and display stunning space imagery, complete with detailed explanations, titles, and dates.
 
